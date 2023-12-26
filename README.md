@@ -1,6 +1,6 @@
 # RHEL5 Install Python 2.6
 
-```
+```sh
 # Install Build Requirements
 yum install gcc gdbm-devel readline-devel ncurses-devel zlib-devel \
   bzip2-devel sqlite-devel db4-devel openssl-devel tk-devel bluez-libs-devel
@@ -32,3 +32,7 @@ Resolving www.python.org... 151.101.108.223, 2a04:4e42:1a::223
 Connecting to www.python.org|151.101.108.223|:443... connected.
 OpenSSL: error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol
 ```
+
+参考链接
+
+- [Installing Python 2.6 in CentOS 5 (or RHEL5)](https://bda.ath.cx/blog/2009/04/08/installing-python-26-in-centos-5-or-rhel5/)
